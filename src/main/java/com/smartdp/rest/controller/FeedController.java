@@ -6,7 +6,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 
-@Controller
+//@Controller
 public class FeedController {
     @RequestMapping("/jsonfeed")
     public String getJSON(Model model) {
