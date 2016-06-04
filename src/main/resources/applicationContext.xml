@@ -39,16 +39,10 @@
 		<property name="username" value="${jdbc.username}" />
 		<property name="password" value="${jdbc.password}" />
 		
-		<property value="1000" name="maxWait" />
-		<property value="5" name="initialSize" />
-		<property value="20" name="maxActive" />
-		<property value="5" name="maxIdle" />
-		<property value="true" name="testWhileIdle" />
-		<property value="15000" name="timeBetweenEvictionRunsMillis" />
-		<property value="20" name="numTestsPerEvictionRun" />
-		<property value="SELECT 1 FROM DUAL" name="validationQuery" />
-		<property value="true" name="removeAbandoned" />
-		<property value="180" name="removeAbandonedTimeout" />
+		<property value="1" name="maxWait" />
+		<property value="1" name="initialSize" />
+		<property value="1" name="maxActive" />
+		<property value="1" name="maxIdle" />
 
 		<!-- Connection Pooling Info 
 		<property name="maxIdle" value="${jdbc.maxIdle}" />
